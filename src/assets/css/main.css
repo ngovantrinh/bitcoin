@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  color: #4a4a4a;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+/*------------ Menu --------------*/
+.header-menu {
+  border: 1px solid #eeeeee;
+  padding: 8px 15px;
+}
+.header-menu .menu {
+  display: flex;
+  align-items: center;
+}
+.header-menu .menu img {
+  max-width: 140px;
+}
+.header-menu .menu .list-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0 20px;
+}
+.header-menu .menu .list-menu .item {
+  padding-right: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+.header-menu .menu .list-menu .item:hover {
+  color: #7ab52b;
+}
+/* -------- table ------------- */
+
+.drop-select {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  outline: none;
+  background: #8dc647;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.drop-select option {
+  background: white;
+  color: #000;
+}
+
+.list-coin {
+  padding: 20px 0;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.list-coin h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 35px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.list-item.title {
+  height: 45px;
+  border-top: 1px solid #eeeeeeee;
+}
+.list-item.title:hover {
+  background-color: white;
+}
+.list-item {
+  border-top: 2px solid #eeeeee;
+  text-align: center;
+}
+
+.list-item .item .item-img {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.list-item:hover {
+  background-color: #eeeeee;
+}
+.list-item .item.logo {
+  display: flex;
+  align-items: center;
+  width: 14rem;
+  padding-left: 18px;
+  justify-content: space-between;
+}
+.list-item .item .item-img img {
+  width: 1.25rem;
+  margin-right: 10px;
+}
+.list-item .item {
+  font-size: 14px;
+}
+.list-item .item .buy {
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-item .item .buy a {
+  font-size: 11px;
+  padding: 8px 5px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #69a235;
+  line-height: 1px;
+}
+.list-item .item .buy h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.list-item .red {
+  color: red;
+}
+.list-item .green {
+  color: #8dc647;
+}
