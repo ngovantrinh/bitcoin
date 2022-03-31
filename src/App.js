@@ -15,7 +15,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(DEFAULT_CURRENT_PAGE);
   const [params, setParams] = useState({
     order: 'market_cap_desc',
-    vs_currency: `usd`,
+    vs_currency: 'usd',
     per_page: DEFAULT_PAGE_SIZE,
     sparkline: false,
     price_change_percentage: '1h%2C24h%2C7d',

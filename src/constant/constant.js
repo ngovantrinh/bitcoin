@@ -23,16 +23,7 @@ export const TITLE_TABLE = [
 ];
 
 // select title
-export const SELECT_OPTION = [
-  'usd',
-  'eur',
-  'jpy',
-  'bch',
-  'xlm',
-  'xrm',
-  'dot',
-  'yfi',
-];
+export const SELECT_OPTION = ['usd', 'eur', 'jpy', 'bch', 'xlm', 'dot', 'yfi'];
 
 // key of table
 export const MARKET_CAP_RANK = 'market_cap_rank';

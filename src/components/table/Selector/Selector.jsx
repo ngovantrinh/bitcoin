@@ -8,7 +8,7 @@ const Selector = ({ handleRate }) => {
   const dispatch = useDispatch();
 
   const exchangeRate = (item) => {
-    dispatch(getCoint(item));
+    // dispatch(getCoint(item));
     handleRate(item);
   };
 
