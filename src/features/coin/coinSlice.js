@@ -1,16 +1,20 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import coniApi from '../../api/coinApi';
 
-export const getCoint = createAsyncThunk('coin/getCoin', async (rate) => {
-  const data = await coniApi.getAll(rate);
-  return data;
+export const getCoint = createAsyncThunk('coin/getCoin', async (params) => {
+  try {
+    const data = await coniApi.getAll(params);
+    return data;
+  } catch (error) {
+    console.log({ error });
+  }
 });
 
 const coinSlice = createSlice({
   name: 'coin',
   initialState: {
     current: [],
-    loading: false,
+    loading: true,
     error: '',
   },
   reducers: {},

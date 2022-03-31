@@ -19,7 +19,6 @@ const Selector = ({ handleRate }) => {
         e.persist();
         exchangeRate(e.target.value);
       }}
-      value
     >
       {option.map((item) => (
         <option value={item} key={item}>

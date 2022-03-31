@@ -17,7 +17,7 @@ function RowItem({ item, rate }) {
       <td className="item star">{item[KEY.MARKET_CAP_RANK]}</td>
       <td className="item logo">
         <div className="item-img">
-          <img src={item[KEY.IMAGE]} alt="image" /> <h3>{item[KEY.NAME]}</h3>
+          <img src={item[KEY.IMAGE]} alt="icon" /> <h3>{item[KEY.NAME]}</h3>
         </div>
         <div className="buy">
           <h5>{item[KEY.SYMBOL]}</h5>

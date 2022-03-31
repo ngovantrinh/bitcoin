@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
 }
+* h1,
 body {
   color: #4a4a4a;
 }
@@ -83,6 +84,12 @@ table {
   border-top: 2px solid #eeeeee;
   text-align: center;
 }
+.list-item .item {
+  padding: 16px 0;
+}
+.list-item .item h3 {
+  margin: 0;
+}
 
 .list-item .item .item-img {
   display: flex;
@@ -125,10 +132,17 @@ table {
 .list-item .item .buy h5 {
   text-transform: uppercase;
   font-weight: 300;
+  margin: 0;
 }
 .list-item .red {
   color: red;
 }
 .list-item .green {
   color: #8dc647;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
 }
